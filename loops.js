@@ -16,5 +16,9 @@ function whileLoop(number){
     return 'done';
 }
 function doWhileLoop(int){
+  do{ 
+    console.log("I run once regardless.");
+  }while(incrementVariable()<int);
+
   
 }
